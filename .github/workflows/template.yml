@@ -67,7 +67,7 @@ jobs:
           git add .
           git commit -m "Prepare repo"
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        runs: |
+           git push
         with:
-          branch: main
           github_token: ${{ secrets.GITHUB_TOKEN }}  // Your default GITHUB_TOKEN need Read and Write permissions.
