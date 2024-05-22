@@ -4,4 +4,4 @@
 
 ### Added
 
-- Initial project from [flask-app-example](https://github.com/jecklgamis/flask-app-example)
+- Initial project from [flask-app-example](https://github.com/garyjyao/flask-app-example)

@@ -1,4 +1,4 @@
-IMAGE_NAME:=jecklgamis/flask-app-example
+IMAGE_NAME:=garyjyao/flask-app
 IMAGE_TAG:=main
 
 default:

@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: jecklgamis/flask-app-example
+  repository: garyjyao/flask-app-example
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "main"
@@ -51,14 +51,14 @@ ingress:
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
   hosts:
-    - host: flask-app-example.jecklgamis.com
+    - host: flask-app-example.garyjyao.com
       paths:
         - path: /
           pathType: Prefix
   tls:
     - secretName: flask-app-example
       hosts:
-        - flask-app-example.jecklgamis.com
+        - flask-app-example.garyjyao.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

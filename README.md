@@ -1,10 +1,10 @@
 ## flask-app-example
 
-[![Build](https://github.com/jecklgamis/flask-app-example/actions/workflows/build.yml/badge.svg)](https://github.com/jecklgamis/flask-app-example/actions/workflows/build.yml)
+[![Build](https://github.com/garyjyao/flask-app-example/actions/workflows/build.yml/badge.svg)](https://github.com/garyjyao/flask-app-example/actions/workflows/build.yml)
 
 An example Flask app using Python 3 and Docker.
 
-Docker : `docker run -p 8080:8080 -it jecklgamis/flask-app-example:main`
+Docker : `docker run -p 8080:8080 -it garyjyao/flask-app-example:main`
 
 What's in the box?
 
