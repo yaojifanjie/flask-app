@@ -67,7 +67,5 @@ jobs:
           git add .
           git commit -m "Prepare repo"
       - name: Push changes
-        runs: |
-           git push
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  // Your default GITHUB_TOKEN need Read and Write permissions.
+        run: |
+          git push // Your default GITHUB_TOKEN need Read and Write permissions.
