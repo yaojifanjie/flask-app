@@ -1,5 +1,5 @@
 FROM ubuntu:22.04
-MAINTAINER Gary Yao <garyjyao@gmail.com>
+MAINTAINER FirstName LastName <user@some-domain>
 
 RUN apt update -y && apt install -y curl dumb-init python3 python3-pip && rm -rf /var/lib/apt/lists/*
 RUN pip3 install --upgrade pip

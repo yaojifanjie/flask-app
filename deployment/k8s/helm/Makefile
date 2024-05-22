@@ -1,4 +1,4 @@
-APP_NAME:=flask-app-example
+APP_NAME:=flask-app
 VERSION:=$(shell cat chart/Chart.yaml | yq .appVersion)
 HELM_CHART=$(APP_NAME)-$(VERSION).tgz
 

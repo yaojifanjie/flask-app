@@ -9,7 +9,7 @@ bp = Blueprint('/', __name__, url_prefix='/')
 
 @bp.route('/', methods=['GET'])
 def index():
-    return jsonify({"name": "flask-app-example", "message": "It works on my machine!"})
+    return jsonify({"name": "flask-app", "message": "It works on my machine!"})
 
 
 @bp.route('/server_info', methods=['GET'])

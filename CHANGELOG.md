@@ -1,4 +1,4 @@
-# %NAME% Changelog
+# flask-app Changelog
 
 ## [Unreleased]
 
