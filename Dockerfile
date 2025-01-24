@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM hub.docker.internal.cba/ubuntu:22.04
 MAINTAINER FirstName LastName <user@some-domain>
 
 RUN apt update -y && apt install -y curl dumb-init python3 python3-pip && rm -rf /var/lib/apt/lists/*
