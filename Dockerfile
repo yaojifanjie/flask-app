@@ -2,10 +2,17 @@ FROM applicationinfrastructure-public.docker.internal.cba/library/ubuntu:22.04
 MAINTAINER FirstName LastName <user@some-domain>
 
 RUN apt update -y && apt install -y curl dumb-init python3 python3-pip && rm -rf /var/lib/apt/lists/*
-RUN pip3 install --upgrade pip
+
+#uncba
+#RUN pip3 install --upgrade pip
 
 COPY requirements.txt /
-RUN pip3 install --trusted-host pypi.python.org -r /requirements.txt
+#uncba
+#RUN pip3 install --trusted-host pypi.python.org -r /requirements.txt
+
+ENV PIP_INDEX_URL="https://artifactory.internal.cba/api/pypi/org.python.pypi/simple"
+ENV REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+RUN pip3 install --trusted-host artifactory.internal.cba -r /requirements.txt
 
 ENV APP_HOME /app
 
