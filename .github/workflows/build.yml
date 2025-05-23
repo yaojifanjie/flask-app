@@ -9,6 +9,8 @@ on:
   pull_request:
     types: [ opened, reopened ]
     branches: [ main ]
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
