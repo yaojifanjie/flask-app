@@ -1,0 +1,13 @@
+[2025-07-20 23:25:34,441] {_internal.py:97} INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-07-20 23:25:34,441] {_internal.py:97} INFO - [33mPress CTRL+C to quit[0m
+[2025-07-20 23:25:34,442] {_internal.py:97} INFO -  * Restarting with stat
+[2025-07-20 23:25:34,577] {_internal.py:97} WARNING -  * Debugger is active!
+[2025-07-20 23:25:34,579] {_internal.py:97} INFO -  * Debugger PIN: 129-243-382
+[2025-07-20 23:27:59,508] {_internal.py:97} INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+[2025-07-20 23:27:59,508] {_internal.py:97} INFO - [33mPress CTRL+C to quit[0m
+[2025-07-20 23:27:59,509] {_internal.py:97} INFO -  * Restarting with stat
+[2025-07-20 23:27:59,652] {_internal.py:97} WARNING -  * Debugger is active!
+[2025-07-20 23:27:59,654] {_internal.py:97} INFO -  * Debugger PIN: 129-243-382
+[2025-07-20 23:28:14,212] {_internal.py:97} INFO - 127.0.0.1 - - [20/Jul/2025 23:28:14] "GET / HTTP/1.1" 200 -
