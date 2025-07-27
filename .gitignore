@@ -5,3 +5,10 @@ __pycache__/
 *.log
 .pytest_cache/
 .env
+
+# SSL certificates
+*.crt
+*.key
+
+# IDE files
+.idea/

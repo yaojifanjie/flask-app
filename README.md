@@ -30,9 +30,9 @@ pip install -r requirements.txt
 Create a project in the [Google Cloud Console](https://console.cloud.google.com/) and enable the Google+ API. Then create OAuth 2.0 credentials and set the following environment variables:
 
 ```bash
-export GOOGLE_CLIENT_ID="your_google_client_id"
-export GOOGLE_CLIENT_SECRET="your_google_client_secret"
-export GOOGLE_REDIRECT_URI="http://localhost:5000/auth/callback"  # Optional, defaults to this value
+export GOOGLE_CLIENT_ID="your_google_client_id_here"
+export GOOGLE_CLIENT_SECRET="your_google_client_secret_here"
+export GOOGLE_REDIRECT_URI="https://127.0.0.1:8443/auth/callback"  # Optional, defaults to this value
 export SECRET_KEY="your_secret_key_for_sessions"  # Optional, random key generated if not set
 ```
 

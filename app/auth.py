@@ -11,8 +11,11 @@ REDIRECT_URI = os.environ.get('GOOGLE_REDIRECT_URI',
                               'http://localhost:5000/auth/callback')
 
 # OAuth 2.0 scope that this application requests
-SCOPES = ['openid', 'email', 'profile']
-
+SCOPES = [
+    'https://www.googleapis.com/auth/userinfo.profile',
+    'https://www.googleapis.com/auth/userinfo.email',
+    'openid'
+]
 
 def create_flow():
     """Create a Flow instance to manage OAuth 2.0 Authorization Grant flow."""
