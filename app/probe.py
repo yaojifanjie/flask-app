@@ -1,7 +1,7 @@
 from flask import Blueprint
+from flask import jsonify
 
 bp = Blueprint('probe', __name__, url_prefix='/probe')
-from flask import jsonify
 
 
 @bp.route('/live', methods=['GET'])
