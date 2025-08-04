@@ -1,0 +1,15 @@
+modelParameters:
+  max_completion_tokens: 13107
+  temperature: 1
+  top_p: 1
+  stop: []
+  frequency_penalty: 0
+  presence_penalty: 0
+model: openai/gpt-4.1
+messages:
+  - role: system
+    content: You are a python flask expert, creating clean and maintainable code.
+  - role: user
+    content: >
+      Make some suggestion to improve this flask app. The code is in this
+      repository https://github.com/yaojifanjie/flask-app
